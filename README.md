@@ -27,9 +27,9 @@ vue.runtime.esm.js?2b0e:3937 >>>Vue.prototype._update
 Draft topics
 # Essentials
 
-- MMVM model
+- MVVM model
 - init process: 
- - new Vue() => _init() => $mount() => mountComponent() =>new Watcher() => updateComponent() => render() => _update() 
+  - new Vue() => _init() => $mount() => mountComponent() =>new Watcher() => updateComponent() => render() => _update() 
 - Reactive data + dependency collection with Watcher and Dep (Vue2 vs Vue1)
 - Async Patch, queue with nextTick, compared to React.
 - Plugin pattern, and coupling.
