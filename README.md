@@ -24,6 +24,26 @@ vue.runtime.esm.js?2b0e:3937 >>>Vue.prototype._update
 ```
 -----
 
+Draft topics
+# Essentials
+
+- MMVM model
+- init process: 
+ - new Vue() => _init() => $mount() => mountComponent() =>new Watcher() => updateComponent() => render() => _update() 
+- Reactive data + dependency collection with Watcher and Dep (Vue2 vs Vue1)
+- Async Patch, queue with nextTick, compared to React.
+- Plugin pattern, and coupling.
+
+# Component
+
+# Compiler
+- vue-loader and single file component
+- runtime
+# Algorithm
+- Vue2 check both sides vs Vue3 LIS, compared to React key value map
+
+
+
 # plugin pattern
 
 ## What is a plugin? 
